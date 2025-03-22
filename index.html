@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1b1cb;
+      color: #333;
+      text-align: center;
+    }
+
+    .header {
+      padding: 20px;
+      background-color: #f36fad;
+      color: white;
+      animation: bounce 2s infinite;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-5px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .image-container {
+      border: 2px solid #f57ab4;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 250px;
+      height: 250px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #ff99c8;
+      color: rgb(255, 255, 255);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .image-container {
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .image-container {
+        width: 100px;
+        height: 100px;
+      }
+
+      .header h1 {
+        font-size: 1.8rem;
+      }
+
+      .header p {
+        font-size: 1rem;
+      }
+
+      footer {
+        font-size: 0.9rem;
+      }
+        }
+      
+  </style>
+  
+</head>
+<body>
+  <div class="header">
+    <h1>Happy Birthday, My Love! 💖</h1>
+    <p style="font: size 10px;;">រីករាយថ្ងៃខួបកំណើត<br>
+      ថ្ងៃនេះជាថ្ងៃពិសេសបំផុតសូមជូនពរអោយមានសុខភាពល្អបរិបូណ៍ កម្លាំងមាំមួន បញ្ញាញាណភ្លឺថ្លា សម្រស់កាន់តែស្អាត។ បងមានពាក្យខ្លះចង់និយាយ<br>
+      អូនមានអត្ថន័យជាងអ្វីៗទាំងអស់សម្រាប់បង។អូនបានផ្តល់ឪកាសអោយបងទាំងដែលបងមិនមានអ្វីសោះ,បងមានអារម្មណ៍ថាជីវិតកាន់តែមានន័យ។ <br>
+      បងពិតជាស្រលាញ់អូនអស់ពីរចិត្ត💖។ បងសង្ឃឹមថា អូននិងបន្តផ្តល់ឪកាសអោយបងបន្ថែមជាច្រើនទៀត,បងអរគុណសម្រាប់ក្តីស្រលាញ់មួយនេះ!"<br>
+      អូនជាអ្នកឲ្យពន្លឺដល់ជីវិតបង។ បងសង្ឃឹមថាអូននឹងមានថ្ងៃល្អបំផុត និងអាចទទួលបានអ្វីដែលចង់បាន! បងពិតជាស្រលាញ់អូន💖<br> 
+      </p>
+  </div>
+
+  <div class="gallery">
+    <div class="image-container">
+      <img src="Noch.jpg" alt="Valentine's Day Image">
+    </div>
+    <div class="image-container">
+      <img src="Noch1.jpg" alt="Valentine's Day Image">
+    </div>
+    <div class="image-container">
+      <img src="Noch5 .jpg" alt="Valentine's Day Image">
+    </div>
+    <div class="image-container">
+      <img src="Noch3.jpg" alt="Valentine's Day Image">
+    </div>
+    <div class="image-container">
+      <img src="Noch4.jpg" alt="Valentine's Day Image">
+    </div>
+    <div class="image-container">
+      <img src="Noch2.jpg" alt="Valentine's Day Image">
+    </div>
+  </div>
+
+  <footer>
+    <p>​រីករាយថ្ងៃខួបកំណើតមនុស្សជាទីស្រឡាញ់💖💖💖💖</p>
+  </footer>
+
+  <script>
+    console.log("Happy Valentine's Day! Enjoy your gallery.");
+  </script>
+</body>
+</html>
